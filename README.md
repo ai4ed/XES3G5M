@@ -4,4 +4,4 @@ This repo provides related information for XES3G5M: A Knowledge Tracing Benchmar
 
 ## download
 
-You can download XES3G5M from https://drive.google.com/drive/folders/10pZV9iKzW4AmgSfzvreWVtaOB9QivS70, it means you agree to the license when you download the data.
+You can download XES3G5M from https://drive.google.com/file/d/1eFiIYyh5O2V90RA0brammGH6EpHvPDQe/view, it means you agree to the license when you download the data.
