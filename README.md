@@ -3,7 +3,11 @@
 This repo provides related information for XES3G5M: A Knowledge Tracing Benchmark Dataset with Auxiliary Information.
 
 ## Dataset Overview
-Comparisons between existing benchmark Knowledge Tracing (KT) datasets and XES3G5M are shown in the figure below:
+
+The dataset comprises over **5 million interactions** collected from more than **18,000 third-grade students** responding to approximately **8,000 math questions**. 
+
+### Comparison with Existing Datasets
+The figure below highlights key comparisons between XES3G5M and existing benchmark Knowledge Tracing (KT) datasets:
 
 ![Datasets Comparison](https://github.com/user-attachments/assets/483fcd4c-2c0d-4457-8a71-782bdba72352)
 
