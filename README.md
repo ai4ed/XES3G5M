@@ -2,14 +2,14 @@
 
 This repo provides related information for XES3G5M: A Knowledge Tracing Benchmark Dataset with Auxiliary Information.
 
+## Dataset Overview
+Comparisons between existing benchmark Knowledge Tracing (KT) datasets and XES3G5M are shown in the figure below:
+
+![Datasets Comparison](https://github.com/user-attachments/assets/483fcd4c-2c0d-4457-8a71-782bdba72352)
+
 ## Download
 
 You can download XES3G5M from https://drive.google.com/file/d/1eFiIYyh5O2V90RA0brammGH6EpHvPDQe/view, it means you agree to the license when you download the data.
-
-## Comparisons between existing benchmark KT datasets and XES3G5M
-
-![image](https://github.com/user-attachments/assets/483fcd4c-2c0d-4457-8a71-782bdba72352)
-
 
 
 ## Dataset Structure and Storage Format
