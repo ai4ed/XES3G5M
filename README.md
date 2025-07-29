@@ -76,3 +76,10 @@ The `metadata` folder of the metadata for questions:
 - **embeddings**: we additionally provide the embedding files of our questions, analysis and KCs. Specifically, we further pretrain the large-scale language model RoBERTa via the exercise data from a K-12 online learning platform in China. Then we obtain the semantic representations by averaging all the word-level representations of each question, analysis and KC. The embedding fold includes "qid2content_emb.json", "qid2analysis_emb.json", and "cid2content_emb.json" which are the embeddings of questions, analysis and KCs respectively. In each JSON file, each key is the question ID or KC ID, and the value is the corresponding embedding;
 
 - **images**: this is the folder of images for all questions. The name of the image file is corresponding to the question, each question may have 0 or more images, the images' formats are "question_qid-image_index" in question contents and options, and "analysis_qid-image_index" in question analysis, at the same time, the links of the images in the contents are also replaced to the name.
+
+## Clarification
+Due to some researchers having questions about the data statistics, we would like to clarify the following:
+
+1. The total number of valid questions is indeed 7,652, and each question involves interactions. This can be verified from the "train_valid_sequences.csv" and "test.csv" files located in the kc_level directory.
+
+2. Reconstructing the total number of interactions from the processed data is challenging. This is because the training data in the kc_level dataset has undergone both extension and truncation, while the training data in the question_level dataset has also been truncated. However, the truncation points in the two datasets differ. Moreover, the lack of unique identifiers for each interaction further complicates the task of reconstructing the original data from the processed version.
